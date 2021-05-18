@@ -1,0 +1,133 @@
+body{
+	background-color: rgb(102, 153, 153);
+    padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	min-height: 100vh;
+}
+.menü{
+	width: 80%;
+	margin:auto;
+	overflow: hidden; 
+}
+ header{
+	background-color: rgb(163, 194, 194);
+	padding-top: 25px;
+	min-height: 60px;
+	color:rgb(0, 68, 102);
+	border-radius: 0 0 0.8rem 0.8rem;
+}
+header #név{
+	color: rgb(0, 68, 102);
+	font-size: 20px;
+	margin: 0 20px 30px 0;
+	font-family: 'Texturina', serif;
+	padding-top: 30px;
+}
+ nav {
+	float: right;
+
+}
+nav ul{
+	list-style: none;
+	display: inline-flex;
+}
+	
+nav ul li{
+	float:left;
+}
+nav ul li a{
+	margin: 0 20px;
+	text-transform: uppercase;
+	font-family: 'Amatic SC', cursive;
+	color: rgb(0, 68, 102);
+}
+nav ul li a:hover{
+	color: rgb(255, 255, 230);
+	transition: .5s;
+}
+main{
+    overflow: auto;
+    padding-bottom: 100px;
+}
+footer{
+	background-color: rgb(163, 194, 194);
+	border-radius: 0.8rem 0.8rem 0 0;
+	position: sticky;
+	top: 100%
+}
+footer ul h4{
+	color: rgb(0, 68, 102);
+}
+footer ul{
+	margin:0;
+}
+footer ul h4{
+	margin: 0;
+	padding-top: 35px;
+}
+main{
+    color: rgb(0, 68, 102);
+    font-family: 'Texturina', serif;
+}
+main h1{
+    padding: 0 30px;
+}
+main h2{
+	padding :0 150px;
+}
+.valami{
+	padding-top: 10px;
+	list-style: none;
+	display: inline-flex;
+}
+.lap{
+    display: grid;
+    box-sizing: border-box;
+    margin: 20px;
+    flood-color: left;
+}
+.lap2{
+    display: block;
+    color: rgb(255, 255, 230);
+    border-radius: 0.6rem ;
+    padding: 1rem;
+    background-color: grey;
+}
+.lap1{
+    display: grid;
+    box-sizing: border-box;
+    max-width: 65%;
+    margin: 20px;
+    text-align: center;
+}
+.munka{
+    padding: 0;
+	margin: 10px;
+}
+.rács{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    grid-gap: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+    .fehér_képek{
+    height:10px;
+    background-color: grey;
+    text-align: center;
+}
+div img{
+	padding: 15px;
+	border-radius: 20px;
+}
+.lap3{
+	display: grid;
+	box-sizing: border-box;
+    max-width: 45%;
+    margin: 20px;
+    text-align: center;
+}
+h3{
+	padding-left:  15px;
+}
